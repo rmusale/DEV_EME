@@ -13,7 +13,9 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 - script: javac HelloWorldApp.java
+  displayName: 'Compiling Java Program'
 - script: java HelloWorldApp
+  displayName: 'Executing Java program'
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
